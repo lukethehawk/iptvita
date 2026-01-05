@@ -1,0 +1,35 @@
+name: Build ordered Italy M3U
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *"   # ogni giorno alle 04:00 UTC
+  push:
+    paths:
+      - "tools/**"
+      - ".github/workflows/build-it.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate streams/it.m3u
+        run: |
+          python tools/sort_m3u_it.py > streams/it.m3u
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add streams/it.m3u
+          git commit -m "Auto-sort it.m3u by LCN + logos" || echo "No changes"
+          git push

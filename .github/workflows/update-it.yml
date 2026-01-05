@@ -3,7 +3,7 @@ name: Update and sort Italy M3U
 on:
   schedule:
     - cron: "30 3 * * *"   # ogni giorno alle 03:30 UTC
-  workflow_dispatch: {}     # pulsante "Run workflow" manuale
+  workflow_dispatch: {}     # pulsante manuale
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5  # Ultima versione stabile [web:2]
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,7 +22,8 @@ jobs:
 
       - name: Fetch upstream + sort
         run: |
-          curl -fsSL "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/it.m3u" | python scripts/sort_it_m3u.py
+          mkdir -p streams tools
+          curl -fsSL "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/it.m3u" | python tools/sort_m3u_it.py
 
       - name: Commit changes (if any)
         run: |
@@ -33,5 +34,5 @@ jobs:
             echo "No changes."
             exit 0
           fi
-          git commit -m "chore: update & sort it.m3u"
+          git commit -m "chore: update & sort it.m3u [skip ci]"
           git push

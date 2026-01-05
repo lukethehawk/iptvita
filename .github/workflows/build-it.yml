@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - "tools/**"
+      - "streams/it.m3u"
       - ".github/workflows/build-it.yml"
 
 jobs:
@@ -15,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5  # Aggiornato [web:6]
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,6 +25,12 @@ jobs:
 
       - name: Generate streams/it.m3u
         run: |
+          mkdir -p streams tools
+          # Ricostruisce da upstream se non presente, altrimenti usa locale
+          if [ ! -f streams/it.m3u ]; then
+            curl -fsSL "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/it.m3u" > streams/it_raw.m3u
+            mv streams/it_raw.m3u streams/it.m3u
+          fi
           python tools/sort_m3u_it.py > streams/it.m3u
 
       - name: Commit changes
@@ -31,5 +38,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add streams/it.m3u
-          git commit -m "Auto-sort it.m3u by LCN + logos" || echo "No changes"
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "chore: auto-sort it.m3u by LCN + logos [skip ci]"
           git push

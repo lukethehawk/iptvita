@@ -4,108 +4,71 @@ from pathlib import Path
 
 OUTFILE = Path("streams/it.m3u")
 
-# Ordine stile “telecomando”
-# (aggiungi qui se vuoi altri canali in alto)
-PINNED_ORDER = [
-    "Rai 1",
-    "Rai 2",
-    "Rai 3",
-    "Rete 4",
-    "Canale 5",
-    "Italia 1",
-    "La7",
-    "TV8",
-    "Nove",
-    "Rai News 24",
-    "TGCom 24",
-    "Sky TG24",
-]
+# Ordine stile “telecomando” (LCN approssimativo)
+PINNED_ORDER = {
+    "Rai 1": 1, "Rai 2": 2, "Rai 3": 3, "Rai Yoyo": 4, "Rai Gulp": 5, "Rai Storia": 6,
+    "Rete 4": 7, "Canale 5": 8, "Italia 1": 9, "La7": 10, "TV8": 18, "Nove": 19,
+    "Rai News 24": 25, "TGCom 24": 50, "Sky TG24": 51,
+    # Aggiungi altri con LCN basso per top
+}
 
 def norm_spaces(s: str) -> str:
     return re.sub(r"\s+", " ", s.strip())
 
 def normalize_base_name(display_name: str) -> str:
-    """
-    Prende il nome dopo la virgola di #EXTINF e lo riduce al 'nome base' del canale.
-    Esempi:
-      "Rai 1 (576p) [Geo-blocked]" -> "Rai 1"
-      "Rai 1 HD (720p)"           -> "Rai 1"
-      "LA7 HD"                    -> "La7"
-      "TGCom 24 [Geo-blocked]"    -> "TGCom 24"
-      "27 TwentySeven ..."        -> "27 TwentySeven" (non toccato)
-    """
     s = display_name
 
-    # Rimuove tag [ ... ]
-    s = re.sub(r"\[[^\]]*\]", "", s)
-
-    # Rimuove parentesi ( ... )
-    s = re.sub(r"\([^)]*\)", "", s)
-
-    # Normalizza spazi
+    # Rimuovi tag [ ] e ( )
+    s = re.sub(r"\[.*?\]|\(.*?\)", "", s)
     s = norm_spaces(s)
 
-    # Uniforma alcuni nomi (case e varianti comuni)
-    # LA7 / La7
-    if s.upper().startswith("LA7"):
-        s = "La7" + s[3:]
-        s = norm_spaces(s)
-
-    # NOVE / Nove
-    if s.upper().startswith("NOVE"):
-        s = "Nove" + s[4:]
-        s = norm_spaces(s)
-
-    # TGCom 24 varianti
-    if s.lower().startswith("tgcom"):
-        s = "TGCom 24" if "24" in s else "TGCom"
-        # se era "TGCom 24" ok
-
-    # RaiNews24 varianti
-    if s.lower().replace(" ", "") in ("rainews24", "rainews"):
-        s = "Rai News 24"
-
-    # Rimuove suffissi tipo HD/UHD/4K/SD (solo se in fondo o come token)
-    s = re.sub(r"\b(HD|UHD|4K|SD)\b", "", s, flags=re.IGNORECASE)
+    # Uniforma varianti comuni
+    s = re.sub(r"^(LA7)", "La7", s, flags=re.I)
+    s = re.sub(r"^(NOVE)", "Nove", s, flags=re.I)
+    if re.match(r"^tgcom.*24", s, re.I): s = "TGCom 24"
+    elif re.match(r"^tgcom", s, re.I): s = "TGCom"
+    if re.search(r"rai\s*(news|news24)", s, re.I): s = "Rai News 24"
+    s = re.sub(r"\b(HD|UHD|4K|SD)\b", "", s, flags=re.I)
     s = norm_spaces(s)
-
-    # Uniforma "Rai Uno/Due/Tre" se mai presenti
-    s = re.sub(r"^Rai Uno$", "Rai 1", s, flags=re.IGNORECASE)
-    s = re.sub(r"^Rai Due$", "Rai 2", s, flags=re.IGNORECASE)
-    s = re.sub(r"^Rai Tre$", "Rai 3", s, flags=re.IGNORECASE)
+    s = re.sub(r"rai\s+(uno|1)", "Rai 1", s, flags=re.I)
+    s = re.sub(r"rai\s+(due|2)", "Rai 2", s, flags=re.I)
+    s = re.sub(r"rai\s+(tre|3)", "Rai 3", s, flags=re.I)
 
     return s
+
+def get_lcn_priority(base: str) -> int:
+    """Priorità LCN da PINNED_ORDER, altrimenti alfabetico"""
+    return PINNED_ORDER.get(base, 9999 + ord(base[0].lower()) if base else 99999)
 
 def parse_m3u(lines):
     header = []
     entries = []
 
     i = 0
-    while i < len(lines) and not lines[i].startswith("#EXTINF"):
-        if lines[i].strip():
-            header.append(lines[i])
+    while i < len(lines) and not lines[i].startswith("#EXTINF:"):
+        if lines[i].strip(): header.append(lines[i])
         i += 1
 
     while i < len(lines):
-        if not lines[i].startswith("#EXTINF"):
+        if i + 1 >= len(lines) or not lines[i].startswith("#EXTINF:"):
             i += 1
             continue
         extinf = lines[i]
-        url = lines[i + 1] if i + 1 < len(lines) else ""
-        name = extinf.split(",", 1)[1].strip() if "," in extinf else ""
+        url = lines[i + 1]
+        name_match = re.split(r",(?=[^,]*$)", extinf, 1)
+        name = name_match[1].strip() if len(name_match) > 1 else ""
         base = normalize_base_name(name)
 
-        # punteggio pinned
-        try:
-            pinned_idx = PINNED_ORDER.index(base)
-        except ValueError:
-            pinned_idx = 9999
+        lcn_prio = get_lcn_priority(base)
+        # Per Emby: aggiungi tvg-logo placeholder se assente, group LCN
+        if "tvg-logo=" not in extinf:
+            extinf += " tvg-logo=\"https://i.imgur.com/placeholder.png\""
+        extinf = re.sub(r"tvg-group=", r' group-title="Italia LCN ' + str(lcn_prio) + r'", tvg-group=', extinf)
 
-        # secondario: alfabetico sul base name
-        entries.append((pinned_idx, base.lower(), name.lower(), extinf, url))
+        entries.append((lcn_prio, base.lower(), name.lower(), extinf, url.strip()))
         i += 2
 
-    if not header:
+    if not header or "#EXTM3U" not in header[0]:
         header = ["#EXTM3U"]
     return header, entries
 
@@ -114,22 +77,16 @@ def main():
     lines = raw.splitlines()
 
     header, entries = parse_m3u(lines)
+    entries.sort(key=lambda x: (x[0], x[1], x[2]))  # LCN > base > nome
 
-    # Ordine:
-    # 1) pin
-    # 2) base name
-    # 3) nome completo (così varianti dello stesso canale stanno insieme)
-    entries.sort(key=lambda x: (x[0], x[1], x[2]))
-
-    out = []
-    out.extend(header)
+    out = header[:]
     for _, _, _, extinf, url in entries:
         out.append(extinf)
-        out.append(url)
+        if url.strip(): out.append(url)
 
     OUTFILE.parent.mkdir(parents=True, exist_ok=True)
     OUTFILE.write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"Written: {OUTFILE}")
+    print(f"Written {len(entries)} entries: {OUTFILE}")
 
 if __name__ == "__main__":
     main()

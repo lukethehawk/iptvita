@@ -1,22 +1,14 @@
-Written 320 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
-#EXTINF:-1 tvg-id="Rai1.it@HD",Rai 1 HD (720p) tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
-#EXTINF:-1 tvg-id="Rai1.it@HD",Rai 1 HD (720p) tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
 #EXTINF:-1 tvg-id="Rai2.it@SD",Rai 2 (302p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 http://stream.tvtap.net:8081/live/it-rai2.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai2.it@SD",Rai 2 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718
-#EXTINF:-1 tvg-id="Rai2.it@HD",Rai 2 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
-#EXTINF:-1 tvg-id="Rai2.it@HD",Rai 2 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rai2/browser-HLS8/rai2.m3u8
 #EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (432p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 http://stream.tvtap.net:8081/live/it-rai3.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
@@ -27,54 +19,22 @@ https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
 https://wzstreaming.rai.it/TVlive/liveStream/chunklist_w823540263.m3u8
 #EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (720p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
-#EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rai3/browser-dash/rai3.mpd
-#EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8
 #EXTINF:-1 tvg-id="RaiYoyo.it@SD",Rai Yoyo (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://188.60.179.180:8000/play/xxRaiYoyo
 #EXTINF:-1 tvg-id="RaiGulp.it@SD",Rai Gulp (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://188.60.179.180:8000/play/xxRaiGulpxx
 #EXTINF:-1 tvg-id="RaiGulp.it@SD",Rai Gulp (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953
-#EXTINF:-1 tvg-id="RaiGulp.it@HD",Rai Gulp HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd
-#EXTINF:-1 tvg-id="RaiGulp.it@HD",Rai Gulp HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8
 #EXTINF:-1 tvg-id="RaiStoria.it@SD",Rai Storia (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990
-#EXTINF:-1 tvg-id="RaiStoria.it@HD",Rai Storia HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
-#EXTINF:-1 tvg-id="RaiStoria.it@HD",Rai Storia HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-HLS8/raistoria.m3u8
 #EXTINF:-1 tvg-id="Rete4.it@SD",Rete 4 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(r4)/index.m3u8
-#EXTINF:-1 tvg-id="Rete4.it@HD",Rete 4 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
-#EXTINF:-1 tvg-id="Rete4.it@HD",Rete 4 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8
 #EXTINF:-1 tvg-id="Canale5.it@SD",Canale 5 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8
-#EXTINF:-1 tvg-id="Canale5.it@HD",Canale 5 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
-#EXTINF:-1 tvg-id="Canale5.it@HD",Canale 5 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8
 #EXTINF:-1 tvg-id="Italia1.it@SD",Italia 1 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
-#EXTINF:-1 tvg-id="Italia1.it@HD",Italia 1 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
-#EXTINF:-1 tvg-id="Italia1.it@HD",Italia 1 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8
-#EXTINF:-1 tvg-id="LA7.it@HD",LA7 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
-#EXTINF:-1 tvg-id="LA7.it@HD",LA7 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/la7/browser-HLS8/la7.m3u8
 #EXTINF:-1 tvg-id="RaiNews24.it@SD",Rai News 24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
-#EXTINF:-1 tvg-id="RaiNews24.it@HD",Rai News 24 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
-#EXTINF:-1 tvg-id="RaiNews24.it@HD",Rai News 24 HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/rainews/browser-HLS8/rainews.m3u8
 #EXTINF:-1 tvg-id="TGCom24.it@SD",TGCom 24 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8
 #EXTINF:-1 tvg-id="111TV.it@SD",111 TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -239,10 +199,6 @@ https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/p
 https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8
 #EXTINF:-1 tvg-id="La5.it@SD",La5 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ka)/index.m3u8
-#EXTINF:-1 tvg-id="La7Cinema.it@HD",La7 Cinema (720p) tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
-#EXTINF:-1 tvg-id="La7Cinema.it@HD",La7 Cinema (720p) tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:-1 tvg-id="LA7d.it@SD",LA7d (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8
 #EXTINF:-1 tvg-id="LaCNews24.it@SD",LaC News 24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -377,14 +333,6 @@ http://188.60.179.180:8000/play/a0oy
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992
 #EXTINF:-1 tvg-id="RaiScuola.it@SD",Rai Scuola (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011
-#EXTINF:-1 tvg-id="RaiScuola.it@HD",Rai Scuola HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
-#EXTINF:-1 tvg-id="RaiScuola.it@HD",Rai Scuola HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-HLS8/raiscuola.m3u8
-#EXTINF:-1 tvg-id="RaiSport.it@HD",Rai Sport HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
-#EXTINF:-1 tvg-id="RaiSport.it@HD",Rai Sport HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8
 #EXTINF:-1 tvg-id="",Rai Sport 2 tvg-logo="https://i.imgur.com/placeholder.png"
 http://originstream12.rai.it/italy/raisport2_1200/master.m3u8
 #EXTINF:-1 tvg-id="RaiYoyo.it@SD",Rai YoYo (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"

@@ -1,28 +1,20 @@
-Written 294 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
-#EXTINF:-1 tvg-id="Rai2.it@SD",Rai 2 (302p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
-http://stream.tvtap.net:8081/live/it-rai2.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai2.it@SD",Rai 2 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718
-#EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (432p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
-http://stream.tvtap.net:8081/live/it-rai3.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709
 #EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (720p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
-https://wzstreaming.rai.it/TVlive/liveStream/chunklist_w823540263.m3u8
-#EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (720p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
-https://wzstreaming.rai.it/TVlive/liveStream/playlist.m3u8
 #EXTINF:-1 tvg-id="RaiYoyo.it@SD",Rai Yoyo (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
-http://188.60.179.180:8000/play/xxRaiYoyo
+http://78.130.250.2:8023/play/a04d/index.m3u8
 #EXTINF:-1 tvg-id="RaiGulp.it@SD",Rai Gulp (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
-http://188.60.179.180:8000/play/xxRaiGulpxx
+http://78.130.250.2:8023/play/a04m/index.m3u8
 #EXTINF:-1 tvg-id="RaiGulp.it@SD",Rai Gulp (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953
 #EXTINF:-1 tvg-id="RaiStoria.it@SD",Rai Storia (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
@@ -33,6 +25,8 @@ https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(r4)/
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8
 #EXTINF:-1 tvg-id="Italia1.it@SD",Italia 1 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
+#EXTINF:-1 tvg-id="RaiNews24.it@SD",Rai News 24 (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://78.130.250.2:8023/play/a04l/index.m3u8
 #EXTINF:-1 tvg-id="RaiNews24.it@SD",Rai News 24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
 #EXTINF:-1 tvg-id="TGCom24.it@SD",TGCom 24 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
@@ -313,24 +307,20 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
 #EXTINF:-1 tvg-id="Rai4K.it@SD",RAI 4K [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
-#EXTINF:-1 tvg-id="Rai4.it@SD",Rai 4 (302p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
-http://stream.tvtap.net:8081/live/it-rai4.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai4.it@SD",Rai 4 (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=746966
 #EXTINF:-1 tvg-id="Rai4.it@SD",Rai 4 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966
-#EXTINF:-1 tvg-id="Rai5.it@SD",Rai 5 (302p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
-http://stream.tvtap.net:8081/live/it-rai5.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Rai5.it@SD",Rai 5 (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://78.130.250.2:8023/play/a04o/index.m3u8
 #EXTINF:-1 tvg-id="Rai5.it@SD",Rai 5 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276
-#EXTINF:-1 tvg-id="RaiItalia.it@Asia",RAI Italia Asia (576p) tvg-logo="https://i.imgur.com/placeholder.png"
-http://210.210.155.37/x6bnqe/s/s63/index2.m3u8
 #EXTINF:-1 tvg-id="RaiMovie.it@SD",Rai Movie (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002
-#EXTINF:-1 tvg-id="RaiPremium.it@SD",Rai Premium (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
-http://188.60.179.180:8000/play/a0oy
 #EXTINF:-1 tvg-id="RaiPremium.it@SD",Rai Premium (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992
+#EXTINF:-1 tvg-id="RaiScuola.it@SD",Rai Scuola (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://78.130.250.2:8023/play/a04h/index.m3u8
 #EXTINF:-1 tvg-id="RaiScuola.it@SD",Rai Scuola (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011
 #EXTINF:-1 tvg-id="",Rai Sport 2 tvg-logo="https://i.imgur.com/placeholder.png"

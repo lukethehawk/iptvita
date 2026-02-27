@@ -1,16 +1,12 @@
-Written 289 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
-#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
-https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai2.it@SD",Rai 2 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718
 #EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709
-#EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
-https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="RaiYoyo.it@SD",Rai Yoyo (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://78.130.250.2:8023/play/a04d/index.m3u8
 #EXTINF:-1 tvg-id="RaiGulp.it@SD",Rai Gulp (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -255,8 +251,6 @@ https://iptv.peer.biz/live/peertv-it.m3u8
 https://iptv.peer.biz/live/peertv-en.m3u8
 #EXTINF:-1 tvg-id="PeerTVSudtirol.it@SD",Peer TV Südtirol (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://iptv.peer.biz/live/peertv.m3u8
-#EXTINF:-1 tvg-id="TopGear.uk@Italy",Pluto TV Top Gear tvg-logo="https://i.imgur.com/placeholder.png"
-#EXTVLCOPT:http-referrer=https://pluto.tv/it/live-tv/64c109a4798def0008a6e03e
 #EXTINF:-1 tvg-id="PrimaTV.it@SD",Prima TV Sicilia (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8
 #EXTINF:-1 tvg-id="PrimaFree.it@SD",PrimaFree tvg-logo="https://i.imgur.com/placeholder.png"

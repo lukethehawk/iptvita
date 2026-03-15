@@ -1,5 +1,5 @@
-Written 286 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -149,8 +149,6 @@ https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
 https://streaming.softwarecreation.it/GoldTvSat/GoldTvSat/playlist.m3u8
 #EXTINF:-1 tvg-id="GRPVERATV.it@SD",GRP VERATV (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5_output_0.m3u8
-#EXTINF:-1 tvg-id="HorseTV.it@SD",Horse TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
-https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="IcaroTV.it@SD",Icaro TV (720p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
 #EXTINF:-1 tvg-id="Iris.it@SD",Iris [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"

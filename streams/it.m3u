@@ -1,5 +1,5 @@
-Written 285 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -163,7 +163,7 @@ http://wms.shared.streamshow.it/italia2/mp4:italia2/playlist.m3u8
 https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8
 #EXTINF:-1 tvg-id="Italia7.it@SD",Italia 7 (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://151.0.207.99:1935/italia7/italia7/playlist.m3u8
-#EXTINF:-1 tvg-id="ItalianFishingTV.it@SD",Italian Fishing TV tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTINF:-1 tvg-id="ItalianFishingTV.it@SD",Italian Fishing TV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://fms.premio.link/fishingtv/playlist.m3u8
 #EXTINF:-1 tvg-id="IuniorTV.it@SD",Iunior TV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8

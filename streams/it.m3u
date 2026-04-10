@@ -1,5 +1,5 @@
-Written 285 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -113,6 +113,8 @@ https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8
 https://ssh101.bozztv.com/ssh101/dtelevision/playlist.m3u8
 #EXTINF:-1 tvg-id="DeejayTV.it@SD",Deejay TV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
+#EXTINF:-1 tvg-id="Deluxe139.it@SD",Deluxe 139 (480p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u8
 #EXTINF:-1 tvg-id="DITV80.it@SD",DI.TV 80 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8
 #EXTINF:-1 tvg-id="DonnaTV.it@SD",Donna TV (480p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -467,6 +469,8 @@ https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks
 https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Telemolise.it@SD",Telemolise (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://185.202.128.1:1935/TelemoliseStream/telemoliseTV.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Telemontecarlo.it@SD",Telemontecarlo (720p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://stream10.xdevel.com/video17s975955-2173/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="teleMonteneve.it@SD",teleMonteneve (480p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 http://wms.shared.streamshow.it:1935/telemonteneve/telemonteneve/live.m3u8
 #EXTINF:-1 tvg-id="Telenord.it@SD",Telenord (576p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"

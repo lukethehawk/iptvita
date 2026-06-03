@@ -1,5 +1,5 @@
-Written 292 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -381,6 +381,8 @@ https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr
 https://streamcdne1-845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8
 #EXTINF:-1 tvg-id="SL48TV.it@SD",SL48 TV (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://media.velcom.it:1935/sl48/sl48/playlist.m3u8
+#EXTINF:-1 tvg-id="Sportitalia.it@SD",Sportitalia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it@SD",Sportitalia (720p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Sportitalia24.it@SD",Sportitalia 24 (720p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
@@ -393,6 +395,10 @@ https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8
 https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SportitaliaSolocalcio.it@SD",Sportitalia Solocalcio (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="SportitaliaSolocalcio.it@SD",Sportitalia Solocalcio (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://edge-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="SportitaliaSolocalcio.it@SD",Sportitalia Solocalcio (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://italiansport-solocalcio-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SportitaliaSolocalcio.it@SD",Sportitalia Solocalcio (720p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it@SD",Sportitalia TV/Sportitalia/SI tvg-logo="https://i.imgur.com/placeholder.png"
@@ -417,6 +423,8 @@ http://193.70.81.40:1935/supertvoristano/supertvoristano/playlist.m3u8
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperSix.it@SD",SuperSix Lombardia (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8
+#EXTINF:-1 tvg-id="SuperTennis.it@SD",SuperTennis (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #EXTINF:-1 tvg-id="T9.it@SD",T9 (288p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8
 #EXTINF:-1 tvg-id="TaurianovaTV.it@HD",Taurianova TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"

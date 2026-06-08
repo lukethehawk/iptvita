@@ -1,5 +1,5 @@
-Written 296 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -107,8 +107,6 @@ https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b6)/
 https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/classcnbc.m3u8
 #EXTINF:-1 tvg-id="ClassCNBC.it@SD",Class CNBC (1080p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ClassTVModa.it@SD",Class TV Moda tvg-logo="https://i.imgur.com/placeholder.png"
-https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/classtvmoda.m3u8
 #EXTINF:-1 tvg-id="CompanyTV.it@SD",Company TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
 #EXTINF:-1 tvg-id="CusanoItaliaTV.it@SD",Cusano Italia TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"

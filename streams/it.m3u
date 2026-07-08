@@ -1,5 +1,5 @@
-Written 314 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -345,6 +345,8 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/19093/index.m3u8
 #EXTINF:-1 tvg-id="RaiItalia.it@Americas",Rai Italia Americas (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="RaiItalia.it@Americas",Rai Italia Americas (720p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://45.162.231.38:7779/RAI/index.m3u8
 #EXTINF:-1 tvg-id="RaiItalia.it@Australia",Rai Italia Australia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="RaiMovie.it@SD",Rai Movie tvg-logo="https://i.imgur.com/placeholder.png"

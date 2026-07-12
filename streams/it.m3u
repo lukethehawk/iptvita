@@ -1,5 +1,5 @@
-Written 321 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -33,6 +33,8 @@ https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="Italia1.it@SD",Italia 1 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
+#EXTINF:-1 tvg-id="TV8.it@HD",TV8 HD tvg-logo="https://i.imgur.com/placeholder.png"
+http://91.146.94.234:10001/play/a03b
 #EXTINF:-1 tvg-id="RaiNews24.it@SD",Rai News 24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
 #EXTINF:-1 tvg-id="RaiNews24.it@HD",Rai News 24 HD tvg-logo="https://i.imgur.com/placeholder.png"
@@ -361,6 +363,8 @@ http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/19093/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="RaiItalia.it@Americas",Rai Italia Americas (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://45.162.231.38:7779/RAI/index.m3u8
+#EXTINF:-1 tvg-id="RaiItalia.it@Asia",Rai Italia Asia tvg-logo="https://i.imgur.com/placeholder.png"
+http://103.137.83.62:9090/play/55/index.m3u8
 #EXTINF:-1 tvg-id="RaiItalia.it@Australia",Rai Italia Australia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="RaiMovie.it@SD",Rai Movie tvg-logo="https://i.imgur.com/placeholder.png"

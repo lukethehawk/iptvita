@@ -1,5 +1,5 @@
-Written 324 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -243,6 +243,8 @@ http://stucazz.com:8888/hls/cronache.m3u8
 https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8
 #EXTINF:-1 tvg-id="LiraTV.it@SD",Lira TV (720p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://5d79ae45bc63b.streamlock.net/Liratv/Liratv/playlist.m3u8
+#EXTINF:-1 tvg-id="LombardiaTV.it@SD",Lombardia TV tvg-logo="https://i.imgur.com/placeholder.png"
+https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8
 #EXTINF:-1 tvg-id="LunaTV.it@SD",Luna TV tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f22d76e220e1.streamlock.net/lunatv/lunatv/playlist.m3u8
 #EXTINF:-1 tvg-id="m2oTV.it@SD",m2o TV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -385,6 +387,8 @@ http://originstream12.rai.it/italy/raisport2_1200/master.m3u8
 https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8
 #EXTINF:-1 tvg-id="ReggioTV.it@SD",ReggioTV (480p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8
+#EXTINF:-1 tvg-id="Rete55.it@SD",Rete 55 tvg-logo="https://i.imgur.com/placeholder.png"
+https://live1.giocabet.tv/stream/6/index.m3u8
 #EXTINF:-1 tvg-id="Rete55.it@SD",Rete 55 (720p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://stream.internet.one/Rete55_Live/index.m3u8
 #EXTINF:-1 tvg-id="Rete8.it@SD",Rete 8 tvg-logo="https://i.imgur.com/placeholder.png"

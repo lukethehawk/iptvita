@@ -1,5 +1,5 @@
-Written 294 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -17,6 +17,8 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(r4)/index.m3u8
 #EXTINF:-1 tvg-id="Canale5.it@SD",Canale 5 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8
+#EXTINF:-1 tvg-id="Canale5.it@HD",Canale 5 HD tvg-logo="https://i.imgur.com/placeholder.png"
+https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="Italia1.it@SD",Italia 1 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
 #EXTINF:-1 tvg-id="RaiNews24.it@SD",Rai News 24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -41,6 +43,8 @@ https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8
 http://wms.shared.streamshow.it/canale51/canale51/playlist.m3u8
 #EXTINF:-1 tvg-id="51RadioTV.it@SD",51 Radio TV (480p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8
+#EXTINF:-1 tvg-id="7Gold.it@SD",7 Gold (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://streamcdnr6-dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S58803518/OOZape6Nxp4H/playlist.m3u8
 #EXTINF:-1 tvg-id="7RadioVisione.it@HD",7 RadioVisione (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="7080TV.it@SD",70-80 TV (1080P) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -97,6 +101,8 @@ http://wms.shared.streamshow.it/canale8/mp4:canale8/playlist.m3u8
 https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Cine34.it@SD",Cine 34 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b6)/index.m3u8
+#EXTINF:-1 tvg-id="Cine34.it@HD",Cine34 HD (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="ClassCNBC.it@SD",Class CNBC (1080p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CompanyTV.it@SD",Company TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -119,6 +125,8 @@ https://streaming.softwarecreation.it/DonnaTv/DonnaTv/playlist.m3u8
 https://59d7d6f47d7fc.streamlock.net/elivebresciatv/elivebresciatv/playlist.m3u8
 #EXTINF:-1 tvg-id="EntellaTV.it@SD",Entella TV (720p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8
+#EXTINF:-1 tvg-id="EspansioneTV.it@SD",Espansione TV (576p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://b53136fc0d724da78cac7754d601393d.msvdn.net/live/S13070333/lgUidxJCmpO3/playlist.m3u8
 #EXTINF:-1 tvg-id="EsperiaTV.it@SD",Esperia TV (480p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://wms.shared.streamshow.it/esperiatv/esperiatv/playlist.m3u8
 #EXTINF:-1 tvg-id="EsperiaTV.it@SD",Esperia TV (480p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
@@ -153,6 +161,8 @@ https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
 https://d3k8wzt41aflvx.cloudfront.net/INTERTV/Live.m3u8
 #EXTINF:-1 tvg-id="Iris.it@SD",Iris [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ki)/index.m3u8
+#EXTINF:-1 tvg-id="Iris.it@HD",Iris HD (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="Italia2.it@SD",Italia 2 (480p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8
 #EXTINF:-1 tvg-id="Italia2.it@SD",Italia 2 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
@@ -193,6 +203,8 @@ https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ka)/
 https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8
 #EXTINF:-1 tvg-id="LaCNews24.it@SD",LaC News 24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
+#EXTINF:-1 tvg-id="LazioStyleChannel.it@HD",Lazio Style Channel HD (720p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="LazioTV.it@SD",Lazio TV (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://151.0.207.99:1935/live/LAZIOTV12/playlist.m3u8
 #EXTINF:-1 tvg-id="LazioTV.it@SD",Lazio TV (576p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -233,6 +245,8 @@ https://5db313b643fd8.streamlock.net/MinformoTV/MinformoTV/playlist.m3u8
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Odeon24.it@SD",Odeon 24 (288p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://streaming.softwarecreation.it/Odeon/Odeon/playlist.m3u8
+#EXTINF:-1 tvg-id="Odeon24.it@SD",Odeon 24 (576p) tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTVLCOPT:http-referrer=https://www.grupposciscione.it/odeon-2/#/?playlistId=0&videoId=0
 #EXTINF:-1 tvg-id="OndaNovaraTV.it@SD",Onda Novara TV (720p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://585b674743bbb.streamlock.net/9006/9006/master.m3u8
 #EXTINF:-1 tvg-id="OndaTV.it@SD",Onda TV (568p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -451,6 +465,8 @@ https://5ce9406b73c33.streamlock.net/TeleArena/TeleArena.stream/playlist.m3u8
 https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleChiara.it@SD",Telechiara (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://fms.tvavicenza.it:1935/telechiara/diretta/playlist.m3u8
+#EXTINF:-1 tvg-id="TelecityLombardia.it@SD",Telecity Lombardia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlist.m3u8
 #EXTINF:-1 tvg-id="TelecolorLombardia.it@SD",Telecolor Lombardia (1080p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8
 #EXTINF:-1 tvg-id="Telefoggia.it@SD",Telefoggia (480p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"

@@ -1,5 +1,5 @@
-Written 301 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -241,6 +241,8 @@ https://59bb40cf810aa.streamlock.net:4443/streamingvincente/streamingvincente/pl
 https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
 #EXTINF:-1 tvg-id="MinformoTV.it@SD",Minformo TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5db313b643fd8.streamlock.net/MinformoTV/MinformoTV/playlist.m3u8
+#EXTINF:-1 tvg-id="NickJr.it@SD",Nick Jr. (720p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://102.129.186.182:81/nick/index.m3u8
 #EXTINF:-1 tvg-id="NTN.it@SD",NTN (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Odeon24.it@SD",Odeon 24 (288p) tvg-logo="https://i.imgur.com/placeholder.png"

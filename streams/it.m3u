@@ -1,5 +1,5 @@
-Written 303 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -13,8 +13,6 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="RaiStoria.it@SD",Rai Storia (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990
-#EXTINF:-1 tvg-id="Rete4.it@SD",Rete 4 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
-https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(r4)/index.m3u8
 #EXTINF:-1 tvg-id="Canale5.it@SD",Canale 5 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8
 #EXTINF:-1 tvg-id="Canale5.it@HD",Canale 5 HD tvg-logo="https://i.imgur.com/placeholder.png"
@@ -35,8 +33,6 @@ https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8
 https://5929b138b139d.streamlock.net/12TVParma/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="20.it@SD",20 Mediaset [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(lb)/index.m3u8
-#EXTINF:-1 tvg-id="Twentyseven.it@SD",27 TwentySeven [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
-https://live2.msf.cdn.mediaset.net/content/hls_h0_cls_vos/live/channel(ts)/index.m3u8
 #EXTINF:-1 tvg-id="50Canale.it@SD",50 Canale tvg-logo="https://i.imgur.com/placeholder.png"
 https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8
 #EXTINF:-1 tvg-id="51RadioTV.it@SD",51 Radio TV (480p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
@@ -103,6 +99,8 @@ https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b6)/index.m3u8
 #EXTINF:-1 tvg-id="Cine34.it@HD",Cine34 HD (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="ClassCNBC.it@SD",Class CNBC (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://www.dailymotion.com/cdn/live/video/x91c8ww.m3u8?sec=D9OwEfHs-e7O6pQ-qlnROg
 #EXTINF:-1 tvg-id="ClassCNBC.it@SD",Class CNBC (1080p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CompanyTV.it@SD",Company TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -397,8 +395,6 @@ https://5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8
 https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8
 #EXTINF:-1 tvg-id="RTV38.it@SD",RTV38 (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://streamcdne1-845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8
-#EXTINF:-1 tvg-id="SkySportF1.it@SD",Sky Sport F1 tvg-logo="https://i.imgur.com/placeholder.png"
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 #EXTINF:-1 tvg-id="Sportitalia.it@SD",Sportitalia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it@SD",Sportitalia (720p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"

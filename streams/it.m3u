@@ -1,5 +1,5 @@
-Written 301 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -103,6 +103,8 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8
 https://www.dailymotion.com/cdn/live/video/x91c8ww.m3u8?sec=D9OwEfHs-e7O6pQ-qlnROg
 #EXTINF:-1 tvg-id="ClassCNBC.it@SD",Class CNBC (1080p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ClassTVModa.it@SD",Class TV Moda tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTVLCOPT:http-user-agent=Enigma2
 #EXTINF:-1 tvg-id="CompanyTV.it@SD",Company TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
 #EXTINF:-1 tvg-id="CusanoItaliaTV.it@SD",Cusano Italia TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -577,6 +579,8 @@ https://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/play
 https://ssh101.bozztv.com/ssh101/televita/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRS.it@SD",TVRS (576p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 http://wms.shared.streamshow.it:1935/tvrs/tvrs/live.m3u8
+#EXTINF:-1 tvg-id="Twentyseven.it@HD",Twentyseven HD (1080p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 #EXTINF:-1 tvg-id="UmbriaTV.it@SD",Umbria TV (576p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8
 #EXTINF:-1 tvg-id="UniNettunoUniversityTV.it@SD",UniNettuno University TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"

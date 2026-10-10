@@ -1,5 +1,5 @@
-Written 305 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -19,6 +19,8 @@ https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/
 https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="Italia1.it@SD",Italia 1 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
+#EXTINF:-1 tvg-id="LA7.it@HD",LA7 HD (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://d3k8wzt41aflvx.cloudfront.net/LA7HD/Live.m3u8
 #EXTINF:-1 tvg-id="RaiNews24.it@SD",Rai News 24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
 #EXTINF:-1 tvg-id="RaiNews24.it@HD",Rai News 24 HD (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -199,6 +201,8 @@ https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8
 https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8
 #EXTINF:-1 tvg-id="La5.it@SD",La5 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ka)/index.m3u8
+#EXTINF:-1 tvg-id="La7Cinema.it@HD",La7 Cinema (720p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://102.129.186.182:81/la7d/index.m3u8
 #EXTINF:-1 tvg-id="LA7d.it@SD",LA7d (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8
 #EXTINF:-1 tvg-id="LaCNews24.it@SD",LaC News 24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"

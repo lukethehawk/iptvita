@@ -1,5 +1,5 @@
-Written 306 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -95,6 +95,8 @@ http://wms.shared.streamshow.it/canale7/mp4:canale7/playlist.m3u8
 http://wms.shared.streamshow.it/canale8/canale8/playlist.m3u8
 #EXTINF:-1 tvg-id="Canale8.it@SD",CANALE 8 (480p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://wms.shared.streamshow.it/canale8/mp4:canale8/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.it@HD",Cartoon Network HD tvg-logo="https://i.imgur.com/placeholder.png"
+https://zg9mhld.s.gy/HD-CARTOON-IT.ts
 #EXTINF:-1 tvg-id="CasaItalia53.it@SD",Casa Italia 53 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Cine34.it@SD",Cine 34 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
@@ -119,6 +121,8 @@ https://live20.bozztv.com/giatvplayout7/giatv-211474/playlist.m3u8
 https://59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u8
 #EXTINF:-1 tvg-id="DITV80.it@SD",DI.TV 80 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannel.it@SD",Discovery Channel (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="DMAX.it@SD",DMAX (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DMAX/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="DonnaTV.it@SD",Donna TV (480p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -143,6 +147,8 @@ https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8
 https://5cbd3bc28341f.streamlock.net:444/fanotv_live/_definst_/43DA-3923-9C72-4E9F/playlist.m3u8
 #EXTINF:-1 tvg-id="FMITALIA.it@SD",FM ITALIA (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
+#EXTINF:-1 tvg-id="FoodNetwork.it@SD",Food Network (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="GiornaleRadioTV.it@SD",Giornale Radio TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="GiovanniPaoloTV.it@SD",Giovanni Paolo TV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -157,8 +163,8 @@ https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8
 https://streaming.softwarecreation.it/GoldTvSat/GoldTvSat/playlist.m3u8
 #EXTINF:-1 tvg-id="GRPVERATV.it@SD",GRP VERATV (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5_output_0.m3u8
-#EXTINF:-1 tvg-id="HorrorChannel.it@SD",Horror Channel (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
-http://str2.iptvhd.ru:8080/Horror/index.m3u8
+#EXTINF:-1 tvg-id="HGTV.it@SD",HGTV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/HGTV/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="IcaroTV.it@SD",Icaro TV (720p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8
 #EXTINF:-1 tvg-id="InterTV.it@SD",Inter TV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"

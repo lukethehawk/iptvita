@@ -1,5 +1,5 @@
-Written 308 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -95,8 +95,6 @@ http://wms.shared.streamshow.it/canale7/mp4:canale7/playlist.m3u8
 http://wms.shared.streamshow.it/canale8/canale8/playlist.m3u8
 #EXTINF:-1 tvg-id="Canale8.it@SD",CANALE 8 (480p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://wms.shared.streamshow.it/canale8/mp4:canale8/playlist.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.it@HD",Cartoon Network HD tvg-logo="https://i.imgur.com/placeholder.png"
-https://bin.webhookrelay.com/v1/webhooks/c804ab58-63c4-427d-bd2e-4d774eb34073
 #EXTINF:-1 tvg-id="CasaItalia53.it@SD",Casa Italia 53 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Cine34.it@SD",Cine 34 [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
@@ -257,6 +255,8 @@ https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playl
 https://5db313b643fd8.streamlock.net/MinformoTV/MinformoTV/playlist.m3u8
 #EXTINF:-1 tvg-id="NickJr.it@SD",Nick Jr. (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://102.129.186.182:81/nick/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.it@SD",Nickelodeon tvg-logo="https://i.imgur.com/placeholder.png"
+https://hostemea1236.s.gy/italia/nikc/23/32/93/locos.m3u8
 #EXTINF:-1 tvg-id="NTN.it@SD",NTN (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Odeon24.it@SD",Odeon 24 (288p) tvg-logo="https://i.imgur.com/placeholder.png"

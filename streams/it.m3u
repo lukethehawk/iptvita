@@ -1,5 +1,5 @@
-Written 311 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -23,6 +23,8 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8
 https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
 #EXTINF:-1 tvg-id="LA7.it@HD",LA7 HD (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://d3k8wzt41aflvx.cloudfront.net/LA7HD/Live.m3u8
+#EXTINF:-1 tvg-id="Nove.it@SD",Nove (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="RaiNews24.it@SD",Rai News 24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
 #EXTINF:-1 tvg-id="RaiNews24.it@HD",Rai News 24 HD (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -151,6 +153,8 @@ https://5cbd3bc28341f.streamlock.net:444/fanotv_live/_definst_/43DA-3923-9C72-4E
 https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="FoodNetwork.it@SD",Food Network (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8
+#EXTINF:-1 tvg-id="Giallo.it@SD",Giallo (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="GiornaleRadioTV.it@SD",Giornale Radio TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="GiovanniPaoloTV.it@SD",Giovanni Paolo TV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -365,6 +369,8 @@ http://originstream12.rai.it/italy/raisport2_1200/master.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="RDSSocialTV.it@SD",RDS Social TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8
+#EXTINF:-1 tvg-id="RealTime.it@SD",Real Time (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="ReggioTV.it@SD",ReggioTV (480p) [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
 https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8
 #EXTINF:-1 tvg-id="Rete55.it@SD",Rete 55 tvg-logo="https://i.imgur.com/placeholder.png"

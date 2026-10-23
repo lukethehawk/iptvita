@@ -1,5 +1,5 @@
-Written 314 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U x-tvg-url="https://epg.kanya.io/us/guide.xml.gz"
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -55,8 +55,6 @@ https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
 https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="ACISportTV.it@SD",ACI Sport TV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
-#EXTINF:-1 tvg-id="ACISportTV.it@SD",ACI Sport TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
-http://145.239.5.177/564a/index.m3u8
 #EXTINF:-1 tvg-id="Adnkronos.it@SD",Adnkronos (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5e73cf528f404.streamlock.net/GR_sport/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlmaTV.it@SD",Alma TV (576p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -79,6 +77,8 @@ https://ed05.top-ix.org/avtvlive/azzurra/streaming/playlist.m3u8
 https://stream.paroledivita.org/bejoy.m3u8
 #EXTINF:-1 tvg-id="BergamoTV.it@SD",Bergamo TV (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="Boing.it@SD",Boing (720p) tvg-logo="https://i.imgur.com/placeholder.png"
+https://boing.akamaized.net/6380392800112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDM5MjgwMDExMiJ9.0RWQ0yZrauU0cHSnbpBYhgyRPeq1Lyw6nOn_fo7_cg0/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="BomChannel.it@SD",Bom Channel (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
 #EXTINF:-1 tvg-id="CafeTV24.it@SD",CafeTV24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -109,6 +109,8 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8
 https://www.dailymotion.com/cdn/live/video/x91c8ww.m3u8?sec=D9OwEfHs-e7O6pQ-qlnROg
 #EXTINF:-1 tvg-id="ClassCNBC.it@SD",Class CNBC (1080p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ComedyCentral.it@SD",Comedy Central (720p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://team-tv.co:81/comedy/index.m3u8
 #EXTINF:-1 tvg-id="CompanyTV.it@SD",Company TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
 #EXTINF:-1 tvg-id="CusanoItaliaTV.it@SD",Cusano Italia TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -259,6 +261,8 @@ https://live2.msf.cdn.mediaset.net/content/hls_h0_clr_vos/live/channel(i2)/index
 https://59bb40cf810aa.streamlock.net:4443/streamingvincente/streamingvincente/playlist.m3u8
 #EXTINF:-1 tvg-id="MedjugorjeItaliaTV.it@SD",Medjugorje Italia TV (480p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8
+#EXTINF:-1 tvg-id="MilanTV.it@SD",Milan TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://team-tv.co:81/milan/index.m3u8
 #EXTINF:-1 tvg-id="MinformoTV.it@SD",Minformo TV (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5db313b643fd8.streamlock.net/MinformoTV/MinformoTV/playlist.m3u8
 #EXTINF:-1 tvg-id="NickJr.it@SD",Nick Jr. (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -345,10 +349,12 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/pl
 https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
 #EXTINF:-1 tvg-id="Rai4.it@SD",Rai 4 (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=746966
+#EXTINF:-1 tvg-id="Rai4.it@HD",Rai 4 HD (720p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://team-tv.co:81/rai4/index.m3u8
+#EXTINF:-1 tvg-id="Rai5.it@SD",Rai 5 (576p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://team-tv.co:81/rai5/index.m3u8
 #EXTINF:-1 tvg-id="RaiItalia.it@EuropeAfrica",Rai Italia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="RaiItalia.it@EuropeAfrica",Rai Italia [Not 24/7] tvg-logo="https://i.imgur.com/placeholder.png"
-http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/19093/index.m3u8
 #EXTINF:-1 tvg-id="RaiItalia.it@Australia",Rai Italia Australia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="RaiItalia.it@NorthAmericas",Rai Italia North Americas (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -359,6 +365,8 @@ http://138.59.177.78:9999/play/a0gf/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="RaiMovie.it@HD",Rai Movie HD (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://team-tv.co:81/raimovie/index.m3u8
+#EXTINF:-1 tvg-id="RaiPremium.it@SD",Rai Premium tvg-logo="https://i.imgur.com/placeholder.png"
+http://team-tv.co:81/raipremium/index.m3u8
 #EXTINF:-1 tvg-id="RaiScuola.it@SD",Rai Scuola (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011
 #EXTINF:-1 tvg-id="",Rai Sport 2 tvg-logo="https://i.imgur.com/placeholder.png"

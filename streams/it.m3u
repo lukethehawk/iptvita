@@ -1,4 +1,5 @@
-#EXTM3U x-tvg-url="https://epg.kanya.io/us/guide.xml.gz"
+Written 320 entries: streams/it.m3u
+.io/us/guide.xml.gz"
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"

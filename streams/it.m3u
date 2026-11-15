@@ -1,5 +1,7 @@
-Written 348 entries: streams/it.m3u
-D",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://team-tv.co:81/rai1/index.m3u8
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (Geo) (576p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -9,6 +11,8 @@ https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=2606803
 http://team-tv.co:81/rai2/index.m3u8
 #EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://d3k8wzt41aflvx.cloudfront.net/RAI3/Live.m3u8
+#EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://team-tv.co:81/rai3/index.m3u8
 #EXTINF:-1 tvg-id="Rai3.it@HD",Rai 3 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709
 #EXTINF:-1 tvg-id="RaiYoyo.it@SD",Rai Yoyo tvg-logo="https://i.imgur.com/placeholder.png"
@@ -19,6 +23,8 @@ http://5.180.164.197:8080/RAIGULP/index.m3u8
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953
 #EXTINF:-1 tvg-id="RaiStoria.it@SD",Rai Storia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="RaiStoria.it@SD",Rai Storia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+http://team-tv.co:81/raistoria/index.m3u8
 #EXTINF:-1 tvg-id="RaiStoria.it@SD",Rai Storia (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990
 #EXTINF:-1 tvg-id="Rete4.it@HD",Rete 4 HD tvg-logo="https://i.imgur.com/placeholder.png"
@@ -97,6 +103,8 @@ https://boing.akamaized.net/6380392800112/eu-central-1/6284318116001/eyJhbGciOiJ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="BomChannel.it@SD",Bom Channel (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
+#EXTINF:-1 tvg-id="Boomerang.it@SD",Boomerang tvg-logo="https://i.imgur.com/placeholder.png"
+http://sultanios.alwaysdata.net/vavo.php?ID=2705627802
 #EXTINF:-1 tvg-id="CacciaePesca.it@SD",Caccia e Pesca (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://102.129.186.182:81/cacciapesca/index.m3u8
 #EXTINF:-1 tvg-id="CafeTV24.it@SD",CafeTV24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -415,6 +423,8 @@ http://team-tv.co:81/raimovie/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="RaiScuola.it@SD",Rai Scuola (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011
+#EXTINF:-1 tvg-id="RaiSport.it@SD",Rai Sport tvg-logo="https://i.imgur.com/placeholder.png"
+http://sultanios.alwaysdata.net/vavo.php?ID=843891896
 #EXTINF:-1 tvg-id="",Rai Sport 2 tvg-logo="https://i.imgur.com/placeholder.png"
 http://originstream12.rai.it/italy/raisport2_1200/master.m3u8
 #EXTINF:-1 tvg-id="RaiSudtirol.it@SD",Rai Sudtirol tvg-logo="https://i.imgur.com/placeholder.png"

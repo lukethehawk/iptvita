@@ -1,5 +1,5 @@
-Written 366 entries: streams/it.m3u
-D",Rai 1 (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
+#EXTM3U
+#EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://team-tv.co:81/rai1/index.m3u8
 #EXTINF:-1 tvg-id="Rai1.it@SD",Rai 1 (576p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803
@@ -125,8 +125,6 @@ https://boing.akamaized.net/6380392800112/eu-central-1/6284318116001/eyJhbGciOiJ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="BomChannel.it@SD",Bom Channel (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
-#EXTINF:-1 tvg-id="Boomerang.it@SD",Boomerang tvg-logo="https://i.imgur.com/placeholder.png"
-http://sultanios.alwaysdata.net/vavo.php?ID=2705627802
 #EXTINF:-1 tvg-id="CacciaePesca.it@SD",Caccia e Pesca (720p) tvg-logo="https://i.imgur.com/placeholder.png"
 http://102.129.186.182:81/cacciapesca/index.m3u8
 #EXTINF:-1 tvg-id="CafeTV24.it@SD",CafeTV24 (720p) tvg-logo="https://i.imgur.com/placeholder.png"
@@ -525,6 +523,8 @@ https://streamcdne1-845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="SkyCinemaUno.it@SD",Sky Cinema Uno tvg-logo="https://i.imgur.com/placeholder.png"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="SkySportF1.it@SD",Sky Sport F1 tvg-logo="https://i.imgur.com/placeholder.png"
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F22890389722acc4573933d
 #EXTINF:-1 tvg-id="Sportitalia.it@SD",Sportitalia (1080p) tvg-logo="https://i.imgur.com/placeholder.png"
 https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it@SD",Sportitalia (720p) [Geo-blocked] tvg-logo="https://i.imgur.com/placeholder.png"
